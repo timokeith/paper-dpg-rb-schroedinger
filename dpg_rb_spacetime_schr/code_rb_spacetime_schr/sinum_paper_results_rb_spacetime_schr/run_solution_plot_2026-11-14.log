@@ -1,0 +1,202 @@
+============================================================
+   Solution plot for the reduced-order model of Case 2   
+============================================================
+  > Generating Structured Mesh (90x90)...
+  > Setting up Case 2
+  > Assembling Gramian using Mean Parameter Potential...
+  > Assembling LHS components...
+  > Assembling RHS components...
+
+--- Rebuilding the reduced basis from 92 stored snapshot parameters ---
+  Snapshot 1/92
+00:50 gram_schmidt: Orthonormalizing vector 1 again
+  Snapshot 2/92
+01:09 gram_schmidt: Orthonormalizing vector 2 again
+  Snapshot 3/92
+01:28 gram_schmidt: Orthonormalizing vector 3 again
+  Snapshot 4/92
+01:45 gram_schmidt: Orthonormalizing vector 4 again
+  Snapshot 5/92
+02:01 gram_schmidt: Orthonormalizing vector 5 again
+  Snapshot 6/92
+02:17 gram_schmidt: Orthonormalizing vector 6 again
+  Snapshot 7/92
+02:33 gram_schmidt: Orthonormalizing vector 7 again
+  Snapshot 8/92
+02:49 gram_schmidt: Orthonormalizing vector 8 again
+  Snapshot 9/92
+03:04 gram_schmidt: Orthonormalizing vector 9 again
+  Snapshot 10/92
+03:22 gram_schmidt: Orthonormalizing vector 10 again
+  Snapshot 11/92
+03:38 gram_schmidt: Orthonormalizing vector 11 again
+  Snapshot 12/92
+03:55 gram_schmidt: Orthonormalizing vector 12 again
+  Snapshot 13/92
+04:12 gram_schmidt: Orthonormalizing vector 13 again
+  Snapshot 14/92
+04:29 gram_schmidt: Orthonormalizing vector 14 again
+  Snapshot 15/92
+04:47 gram_schmidt: Orthonormalizing vector 15 again
+  Snapshot 16/92
+05:04 gram_schmidt: Orthonormalizing vector 16 again
+  Snapshot 17/92
+05:21 gram_schmidt: Orthonormalizing vector 17 again
+  Snapshot 18/92
+05:38 gram_schmidt: Orthonormalizing vector 18 again
+  Snapshot 19/92
+05:54 gram_schmidt: Orthonormalizing vector 19 again
+  Snapshot 20/92
+06:11 gram_schmidt: Orthonormalizing vector 20 again
+  Snapshot 21/92
+06:29 gram_schmidt: Orthonormalizing vector 21 again
+  Snapshot 22/92
+06:47 gram_schmidt: Orthonormalizing vector 22 again
+  Snapshot 23/92
+07:07 gram_schmidt: Orthonormalizing vector 23 again
+  Snapshot 24/92
+07:27 gram_schmidt: Orthonormalizing vector 24 again
+  Snapshot 25/92
+07:45 gram_schmidt: Orthonormalizing vector 25 again
+  Snapshot 26/92
+08:05 gram_schmidt: Orthonormalizing vector 26 again
+  Snapshot 27/92
+08:27 gram_schmidt: Orthonormalizing vector 27 again
+  Snapshot 28/92
+08:52 gram_schmidt: Orthonormalizing vector 28 again
+  Snapshot 29/92
+09:14 gram_schmidt: Orthonormalizing vector 29 again
+  Snapshot 30/92
+09:34 gram_schmidt: Orthonormalizing vector 30 again
+  Snapshot 31/92
+09:52 gram_schmidt: Orthonormalizing vector 31 again
+  Snapshot 32/92
+10:12 gram_schmidt: Orthonormalizing vector 32 again
+  Snapshot 33/92
+10:31 gram_schmidt: Orthonormalizing vector 33 again
+  Snapshot 34/92
+10:53 gram_schmidt: Orthonormalizing vector 34 again
+  Snapshot 35/92
+11:13 gram_schmidt: Orthonormalizing vector 35 again
+  Snapshot 36/92
+11:33 gram_schmidt: Orthonormalizing vector 36 again
+  Snapshot 37/92
+11:51 gram_schmidt: Orthonormalizing vector 37 again
+  Snapshot 38/92
+12:09 gram_schmidt: Orthonormalizing vector 38 again
+  Snapshot 39/92
+12:27 gram_schmidt: Orthonormalizing vector 39 again
+  Snapshot 40/92
+12:45 gram_schmidt: Orthonormalizing vector 40 again
+  Snapshot 41/92
+13:03 gram_schmidt: Orthonormalizing vector 41 again
+  Snapshot 42/92
+13:23 gram_schmidt: Orthonormalizing vector 42 again
+  Snapshot 43/92
+13:41 gram_schmidt: Orthonormalizing vector 43 again
+  Snapshot 44/92
+13:59 gram_schmidt: Orthonormalizing vector 44 again
+  Snapshot 45/92
+14:17 gram_schmidt: Orthonormalizing vector 45 again
+  Snapshot 46/92
+14:38 gram_schmidt: Orthonormalizing vector 46 again
+  Snapshot 47/92
+14:58 gram_schmidt: Orthonormalizing vector 47 again
+  Snapshot 48/92
+15:19 gram_schmidt: Orthonormalizing vector 48 again
+  Snapshot 49/92
+15:38 gram_schmidt: Orthonormalizing vector 49 again
+  Snapshot 50/92
+15:59 gram_schmidt: Orthonormalizing vector 50 again
+  Snapshot 51/92
+16:19 gram_schmidt: Orthonormalizing vector 51 again
+  Snapshot 52/92
+16:39 gram_schmidt: Orthonormalizing vector 52 again
+  Snapshot 53/92
+16:58 gram_schmidt: Orthonormalizing vector 53 again
+  Snapshot 54/92
+17:32 gram_schmidt: Orthonormalizing vector 54 again
+  Snapshot 55/92
+17:59 gram_schmidt: Orthonormalizing vector 55 again
+  Snapshot 56/92
+18:22 gram_schmidt: Orthonormalizing vector 56 again
+  Snapshot 57/92
+18:43 gram_schmidt: Orthonormalizing vector 57 again
+  Snapshot 58/92
+19:03 gram_schmidt: Orthonormalizing vector 58 again
+  Snapshot 59/92
+19:23 gram_schmidt: Orthonormalizing vector 59 again
+  Snapshot 60/92
+19:44 gram_schmidt: Orthonormalizing vector 60 again
+  Snapshot 61/92
+20:06 gram_schmidt: Orthonormalizing vector 61 again
+  Snapshot 62/92
+20:27 gram_schmidt: Orthonormalizing vector 62 again
+  Snapshot 63/92
+20:50 gram_schmidt: Orthonormalizing vector 63 again
+  Snapshot 64/92
+21:13 gram_schmidt: Orthonormalizing vector 64 again
+  Snapshot 65/92
+21:35 gram_schmidt: Orthonormalizing vector 65 again
+  Snapshot 66/92
+21:57 gram_schmidt: Orthonormalizing vector 66 again
+  Snapshot 67/92
+22:19 gram_schmidt: Orthonormalizing vector 67 again
+  Snapshot 68/92
+22:46 gram_schmidt: Orthonormalizing vector 68 again
+  Snapshot 69/92
+23:11 gram_schmidt: Orthonormalizing vector 69 again
+  Snapshot 70/92
+23:36 gram_schmidt: Orthonormalizing vector 70 again
+  Snapshot 71/92
+23:58 gram_schmidt: Orthonormalizing vector 71 again
+  Snapshot 72/92
+24:21 gram_schmidt: Orthonormalizing vector 72 again
+  Snapshot 73/92
+24:43 gram_schmidt: Orthonormalizing vector 73 again
+  Snapshot 74/92
+25:05 gram_schmidt: Orthonormalizing vector 74 again
+  Snapshot 75/92
+25:28 gram_schmidt: Orthonormalizing vector 75 again
+  Snapshot 76/92
+25:52 gram_schmidt: Orthonormalizing vector 76 again
+  Snapshot 77/92
+26:14 gram_schmidt: Orthonormalizing vector 77 again
+  Snapshot 78/92
+26:35 gram_schmidt: Orthonormalizing vector 78 again
+  Snapshot 79/92
+26:59 gram_schmidt: Orthonormalizing vector 79 again
+  Snapshot 80/92
+27:23 gram_schmidt: Orthonormalizing vector 80 again
+  Snapshot 81/92
+27:50 gram_schmidt: Orthonormalizing vector 81 again
+  Snapshot 82/92
+28:14 gram_schmidt: Orthonormalizing vector 82 again
+  Snapshot 83/92
+28:39 gram_schmidt: Orthonormalizing vector 83 again
+  Snapshot 84/92
+29:05 gram_schmidt: Orthonormalizing vector 84 again
+  Snapshot 85/92
+29:32 gram_schmidt: Orthonormalizing vector 85 again
+  Snapshot 86/92
+30:00 gram_schmidt: Orthonormalizing vector 86 again
+  Snapshot 87/92
+30:27 gram_schmidt: Orthonormalizing vector 87 again
+  Snapshot 88/92
+30:54 gram_schmidt: Orthonormalizing vector 88 again
+  Snapshot 89/92
+31:24 gram_schmidt: Orthonormalizing vector 89 again
+  Snapshot 90/92
+32:00 gram_schmidt: Orthonormalizing vector 90 again
+  Snapshot 91/92
+32:28 gram_schmidt: Orthonormalizing vector 91 again
+  Snapshot 92/92
+  > Error Estimator: ||f||²_{G^{-1}} = 5.116625e-02
+
+Test parameter 157 of 200: {'mu1': 160.14615100322715, 'mu2': 121.74948903587813, 'mu3': 26.806672015800444}
+  rel_error_u_L2   stored 3.710025e-01   rebuilt 3.710025e-01
+  rom_res          stored 7.582678e-05   rebuilt 7.582678e-05
+  fom_res          stored 1.241198e-05   rebuilt 1.241198e-05
+Saved sampled solutions to: sinum_paper_results_rb_spacetime_schr\solution_rb_spacetime_case_2_N90_p3_dp2_maxExt100.npz
+Saved solution plot to: sinum_paper_results_rb_spacetime_schr\Solution_fom_rb_spacetime_case_2_N90_p3_dp2_maxExt100.pdf
+Saved solution plot to: sinum_paper_results_rb_spacetime_schr\Solution_error_rb_spacetime_case_2_N90_p3_dp2_maxExt100.pdf

@@ -1,0 +1,3340 @@
+Run started 2026-11-15T23:41:00+01:00; commit d188070; script spacetime_schrodinger_potential.py as committed; Case (c); N up to 100, p in {3,4}, dp in {1,2}, qprime_order full
+
+
+############################################################
+STARTING SIMULATIONS FOR CASE c: POLYNOMIAL ORDER p=3, dp=1  (Max N=100)
+############################################################
+
+============================================================
+Running case c: p=3, dp=1, N=4  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 4x4 mesh
+========================================
+U DOFs: 144
+Q_plus DOFs: 105
+Q_prime DOFs: 160
+Net Q_prime DOFs: 80
+Net X DOFs: 329
+Y DOFs: 400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.5284e-01
+   Relative error:     6.6563e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.2924e+00
+   Effectivity index: 5.0433
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.4981e+00
+   Relative skeleton error:  6.4470e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.7709e+00
+   Relative flux error: 9.7398e-01
+
+============================================================
+Running case c: p=3, dp=1, N=6  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 6x6 mesh
+========================================
+U DOFs: 324
+Q_plus DOFs: 217
+Q_prime DOFs: 336
+Net Q_prime DOFs: 168
+Net X DOFs: 709
+Y DOFs: 900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.1239e-01
+   Relative error:     3.1851e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.3888e+00
+   Effectivity index: 7.6471
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.6385e+00
+   Relative skeleton error:  3.4176e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 5.6829e+00
+   Relative flux error: 5.7637e-01
+
+============================================================
+Running case c: p=3, dp=1, N=8  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 8x8 mesh
+========================================
+U DOFs: 576
+Q_plus DOFs: 369
+Q_prime DOFs: 576
+Net Q_prime DOFs: 288
+Net X DOFs: 1233
+Y DOFs: 1600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.7490e-01
+   Relative error:     1.7832e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.1953e+00
+   Effectivity index: 18.2693
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.0079e+00
+   Relative skeleton error:  1.8325e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.3958e+00
+   Relative flux error: 2.9738e-01
+
+============================================================
+Running case c: p=3, dp=1, N=10  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 10x10 mesh
+========================================
+U DOFs: 900
+Q_plus DOFs: 561
+Q_prime DOFs: 880
+Net Q_prime DOFs: 440
+Net X DOFs: 1901
+Y DOFs: 2500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.1156e-01
+   Relative error:     1.1375e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.8665e+00
+   Effectivity index: 16.7310
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 6.4998e-01
+   Relative skeleton error:  1.0487e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.5183e+00
+   Relative flux error: 1.9699e-01
+
+============================================================
+Running case c: p=3, dp=1, N=12  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 12x12 mesh
+========================================
+U DOFs: 1296
+Q_plus DOFs: 793
+Q_prime DOFs: 1248
+Net Q_prime DOFs: 624
+Net X DOFs: 2713
+Y DOFs: 3600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.2493e-02
+   Relative error:     7.3913e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.5283e+00
+   Effectivity index: 21.0819
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.6208e-01
+   Relative skeleton error:  6.8038e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.7419e+00
+   Relative flux error: 1.2430e-01
+
+============================================================
+Running case c: p=3, dp=1, N=15  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 15x15 mesh
+========================================
+U DOFs: 2025
+Q_plus DOFs: 1216
+Q_prime DOFs: 1920
+Net Q_prime DOFs: 960
+Net X DOFs: 4201
+Y DOFs: 5625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.2496e-02
+   Relative error:     4.3328e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0632e+00
+   Effectivity index: 25.0190
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.5796e-01
+   Relative skeleton error:  3.3967e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.2360e+00
+   Relative flux error: 7.8838e-02
+
+============================================================
+Running case c: p=3, dp=1, N=20  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 20x20 mesh
+========================================
+U DOFs: 3600
+Q_plus DOFs: 2121
+Q_prime DOFs: 3360
+Net Q_prime DOFs: 1680
+Net X DOFs: 7401
+Y DOFs: 10000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.0548e-02
+   Relative error:     2.0950e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.2597e-01
+   Effectivity index: 30.4642
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.3019e-01
+   Relative skeleton error:  1.4844e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.4959e-01
+   Relative flux error: 3.5867e-02
+
+============================================================
+Running case c: p=3, dp=1, N=25  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 25x25 mesh
+========================================
+U DOFs: 5625
+Q_plus DOFs: 3276
+Q_prime DOFs: 5200
+Net Q_prime DOFs: 2600
+Net X DOFs: 11501
+Y DOFs: 15625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.1459e-02
+   Relative error:     1.1683e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.7442e-01
+   Effectivity index: 32.6756
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.1642e-02
+   Relative skeleton error:  8.3252e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.6210e-01
+   Relative flux error: 2.2816e-02
+
+============================================================
+Running case c: p=3, dp=1, N=30  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 30x30 mesh
+========================================
+U DOFs: 8100
+Q_plus DOFs: 4681
+Q_prime DOFs: 7440
+Net Q_prime DOFs: 3720
+Net X DOFs: 16501
+Y DOFs: 22500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.9714e-03
+   Relative error:     7.1080e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.3464e-01
+   Effectivity index: 33.6570
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 5.4511e-02
+   Relative skeleton error:  5.0741e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.4458e-01
+   Relative flux error: 1.5530e-02
+
+============================================================
+Running case c: p=3, dp=1, N=35  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 35x35 mesh
+========================================
+U DOFs: 11025
+Q_plus DOFs: 6336
+Q_prime DOFs: 10080
+Net Q_prime DOFs: 5040
+Net X DOFs: 22401
+Y DOFs: 30625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.6606e-03
+   Relative error:     4.7519e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.5333e-01
+   Effectivity index: 32.8985
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.0496e-02
+   Relative skeleton error:  3.4898e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.6788e-01
+   Relative flux error: 1.1176e-02
+
+============================================================
+Running case c: p=3, dp=1, N=40  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 40x40 mesh
+========================================
+U DOFs: 14400
+Q_plus DOFs: 8241
+Q_prime DOFs: 13120
+Net Q_prime DOFs: 6560
+Net X DOFs: 29201
+Y DOFs: 40000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.2625e-03
+   Relative error:     3.3264e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0380e-01
+   Effectivity index: 31.8154
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.1034e-02
+   Relative skeleton error:  2.5016e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.0778e-01
+   Relative flux error: 8.1088e-03
+
+============================================================
+Running case c: p=3, dp=1, N=45  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 45x45 mesh
+========================================
+U DOFs: 18225
+Q_plus DOFs: 10396
+Q_prime DOFs: 16560
+Net Q_prime DOFs: 8280
+Net X DOFs: 36901
+Y DOFs: 50625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.3745e-03
+   Relative error:     2.4210e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 7.2258e-02
+   Effectivity index: 30.4311
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.4459e-02
+   Relative skeleton error:  1.8588e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.6377e-01
+   Relative flux error: 6.0254e-03
+
+============================================================
+Running case c: p=3, dp=1, N=50  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 50x50 mesh
+========================================
+U DOFs: 22500
+Q_plus DOFs: 12801
+Q_prime DOFs: 20400
+Net Q_prime DOFs: 10200
+Net X DOFs: 45501
+Y DOFs: 62500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.7762e-03
+   Relative error:     1.8110e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 5.1475e-02
+   Effectivity index: 28.9807
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.9572e-02
+   Relative skeleton error:  1.4111e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.3094e-01
+   Relative flux error: 4.5702e-03
+
+============================================================
+Running case c: p=3, dp=1, N=55  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 55x55 mesh
+========================================
+U DOFs: 27225
+Q_plus DOFs: 15456
+Q_prime DOFs: 24640
+Net Q_prime DOFs: 12320
+Net X DOFs: 55001
+Y DOFs: 75625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.3237e-03
+   Relative error:     1.3497e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.7433e-02
+   Effectivity index: 28.2787
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.5189e-02
+   Relative skeleton error:  1.0442e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.0158e-01
+   Relative flux error: 3.3803e-03
+
+============================================================
+Running case c: p=3, dp=1, N=60  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 60x60 mesh
+========================================
+U DOFs: 32400
+Q_plus DOFs: 18361
+Q_prime DOFs: 29280
+Net Q_prime DOFs: 14640
+Net X DOFs: 65401
+Y DOFs: 90000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 9.6835e-04
+   Relative error:     9.8732e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.7743e-02
+   Effectivity index: 28.6499
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.1153e-02
+   Relative skeleton error:  7.3404e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.4585e-02
+   Relative flux error: 2.3764e-03
+
+============================================================
+Running case c: p=3, dp=1, N=65  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 65x65 mesh
+========================================
+U DOFs: 38025
+Q_plus DOFs: 21516
+Q_prime DOFs: 34320
+Net Q_prime DOFs: 17160
+Net X DOFs: 76701
+Y DOFs: 105625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.0307e-04
+   Relative error:     7.1684e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.0926e-02
+   Effectivity index: 29.7646
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 7.7958e-03
+   Relative skeleton error:  4.9296e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 5.2175e-02
+   Relative flux error: 1.5971e-03
+
+============================================================
+Running case c: p=3, dp=1, N=70  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 70x70 mesh
+========================================
+U DOFs: 44100
+Q_plus DOFs: 24921
+Q_prime DOFs: 39760
+Net Q_prime DOFs: 19880
+Net X DOFs: 88901
+Y DOFs: 122500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 5.1726e-04
+   Relative error:     5.2739e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.6044e-02
+   Effectivity index: 31.0169
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 5.2889e-03
+   Relative skeleton error:  3.2227e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.5451e-02
+   Relative flux error: 1.0457e-03
+
+============================================================
+Running case c: p=3, dp=1, N=75  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 75x75 mesh
+========================================
+U DOFs: 50625
+Q_plus DOFs: 28576
+Q_prime DOFs: 45600
+Net Q_prime DOFs: 22800
+Net X DOFs: 102001
+Y DOFs: 140625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.9143e-04
+   Relative error:     3.9909e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.2484e-02
+   Effectivity index: 31.8935
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.5508e-03
+   Relative skeleton error:  2.0902e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.3868e-02
+   Relative flux error: 6.8017e-04
+
+============================================================
+Running case c: p=3, dp=1, N=80  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 80x80 mesh
+========================================
+U DOFs: 57600
+Q_plus DOFs: 32481
+Q_prime DOFs: 51840
+Net Q_prime DOFs: 25920
+Net X DOFs: 116001
+Y DOFs: 160000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.0594e-04
+   Relative error:     3.1193e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 9.8441e-03
+   Effectivity index: 32.1767
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.3924e-03
+   Relative skeleton error:  1.3636e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.6139e-02
+   Relative flux error: 4.4532e-04
+
+============================================================
+Running case c: p=3, dp=1, N=85  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 85x85 mesh
+========================================
+U DOFs: 65025
+Q_plus DOFs: 36636
+Q_prime DOFs: 58480
+Net Q_prime DOFs: 29240
+Net X DOFs: 130901
+Y DOFs: 180625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.4621e-04
+   Relative error:     2.5103e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 7.8568e-03
+   Effectivity index: 31.9113
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.6347e-03
+   Relative skeleton error:  9.0391e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.1105e-02
+   Relative flux error: 2.9726e-04
+
+============================================================
+Running case c: p=3, dp=1, N=90  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 90x90 mesh
+========================================
+U DOFs: 72900
+Q_plus DOFs: 41041
+Q_prime DOFs: 65520
+Net Q_prime DOFs: 32760
+Net X DOFs: 146701
+Y DOFs: 202500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.0282e-04
+   Relative error:     2.0679e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.3409e-03
+   Effectivity index: 31.2635
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.1404e-03
+   Relative skeleton error:  6.1283e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.8394e-03
+   Relative flux error: 2.0393e-04
+
+============================================================
+Running case c: p=3, dp=1, N=95  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 95x95 mesh
+========================================
+U DOFs: 81225
+Q_plus DOFs: 45696
+Q_prime DOFs: 72960
+Net Q_prime DOFs: 36480
+Net X DOFs: 163401
+Y DOFs: 225625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.7009e-04
+   Relative error:     1.7342e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 5.1703e-03
+   Effectivity index: 30.3977
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.1566e-04
+   Relative skeleton error:  4.2663e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 5.7014e-03
+   Relative flux error: 1.4436e-04
+
+============================================================
+Running case c: p=3, dp=1, N=100  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 1, 100x100 mesh
+========================================
+U DOFs: 90000
+Q_plus DOFs: 50601
+Q_prime DOFs: 80800
+Net Q_prime DOFs: 40400
+Net X DOFs: 181001
+Y DOFs: 250000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.4461e-04
+   Relative error:     1.4744e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.2556e-03
+   Effectivity index: 29.4284
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 5.9985e-04
+   Relative skeleton error:  3.0580e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.3144e-03
+   Relative flux error: 1.0647e-04
+
+############################################################
+STARTING SIMULATIONS FOR CASE c: POLYNOMIAL ORDER p=3, dp=2  (Max N=100)
+############################################################
+
+============================================================
+Running case c: p=3, dp=2, N=4  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 4x4 mesh
+========================================
+U DOFs: 144
+Q_plus DOFs: 105
+Q_prime DOFs: 160
+Net Q_prime DOFs: 80
+Net X DOFs: 329
+Y DOFs: 576
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.4591e-01
+   Relative error:     6.5856e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.8786e+00
+   Effectivity index: 6.0048
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.3023e+00
+   Relative skeleton error:  5.9417e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.7438e+00
+   Relative flux error: 9.7059e-01
+
+============================================================
+Running case c: p=3, dp=2, N=6  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 6x6 mesh
+========================================
+U DOFs: 324
+Q_plus DOFs: 217
+Q_prime DOFs: 336
+Net Q_prime DOFs: 168
+Net X DOFs: 709
+Y DOFs: 1296
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.2254e-01
+   Relative error:     3.2885e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.6053e+00
+   Effectivity index: 14.2784
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.3117e+00
+   Relative skeleton error:  2.7359e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.3798e+00
+   Relative flux error: 6.4705e-01
+
+============================================================
+Running case c: p=3, dp=2, N=8  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 8x8 mesh
+========================================
+U DOFs: 576
+Q_plus DOFs: 369
+Q_prime DOFs: 576
+Net Q_prime DOFs: 288
+Net X DOFs: 1233
+Y DOFs: 2304
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.9643e-01
+   Relative error:     2.0028e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.2874e+00
+   Effectivity index: 21.8267
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.0491e-01
+   Relative skeleton error:  1.4635e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.0638e+00
+   Relative flux error: 3.5589e-01
+
+============================================================
+Running case c: p=3, dp=2, N=10  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 10x10 mesh
+========================================
+U DOFs: 900
+Q_plus DOFs: 561
+Q_prime DOFs: 880
+Net Q_prime DOFs: 440
+Net X DOFs: 1901
+Y DOFs: 3600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.0557e-01
+   Relative error:     1.0764e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.1545e+00
+   Effectivity index: 29.8804
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.2278e-01
+   Relative skeleton error:  6.8211e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.3048e+00
+   Relative flux error: 1.8029e-01
+
+============================================================
+Running case c: p=3, dp=2, N=12  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 12x12 mesh
+========================================
+U DOFs: 1296
+Q_plus DOFs: 793
+Q_prime DOFs: 1248
+Net Q_prime DOFs: 624
+Net X DOFs: 2713
+Y DOFs: 5184
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.0833e-02
+   Relative error:     7.2220e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.2225e+00
+   Effectivity index: 31.3772
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.1402e-01
+   Relative skeleton error:  4.6238e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.5979e+00
+   Relative flux error: 1.1402e-01
+
+============================================================
+Running case c: p=3, dp=2, N=15  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 15x15 mesh
+========================================
+U DOFs: 2025
+Q_plus DOFs: 1216
+Q_prime DOFs: 1920
+Net Q_prime DOFs: 960
+Net X DOFs: 4201
+Y DOFs: 8100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.2098e-02
+   Relative error:     4.2922e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.3206e+00
+   Effectivity index: 31.3704
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.1215e-01
+   Relative skeleton error:  2.7934e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.0759e+00
+   Relative flux error: 6.8624e-02
+
+============================================================
+Running case c: p=3, dp=2, N=20  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 20x20 mesh
+========================================
+U DOFs: 3600
+Q_plus DOFs: 2121
+Q_prime DOFs: 3360
+Net Q_prime DOFs: 1680
+Net X DOFs: 7401
+Y DOFs: 14400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.1409e-02
+   Relative error:     2.1828e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.6380e-01
+   Effectivity index: 31.0060
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.3566e-01
+   Relative skeleton error:  1.5468e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.1253e-01
+   Relative flux error: 3.9342e-02
+
+============================================================
+Running case c: p=3, dp=2, N=25  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 25x25 mesh
+========================================
+U DOFs: 5625
+Q_plus DOFs: 3276
+Q_prime DOFs: 5200
+Net Q_prime DOFs: 2600
+Net X DOFs: 11501
+Y DOFs: 22500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.1901e-02
+   Relative error:     1.2135e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.8759e-01
+   Effectivity index: 32.5672
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.5783e-02
+   Relative skeleton error:  8.7474e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.8585e-01
+   Relative flux error: 2.3989e-02
+
+============================================================
+Running case c: p=3, dp=2, N=30  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 30x30 mesh
+========================================
+U DOFs: 8100
+Q_plus DOFs: 4681
+Q_prime DOFs: 7440
+Net Q_prime DOFs: 3720
+Net X DOFs: 16501
+Y DOFs: 32400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.1652e-03
+   Relative error:     7.3056e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.4399e-01
+   Effectivity index: 34.0520
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 5.6602e-02
+   Relative skeleton error:  5.2687e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.5244e-01
+   Relative flux error: 1.5884e-02
+
+============================================================
+Running case c: p=3, dp=2, N=35  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 35x35 mesh
+========================================
+U DOFs: 11025
+Q_plus DOFs: 6336
+Q_prime DOFs: 10080
+Net Q_prime DOFs: 5040
+Net X DOFs: 22401
+Y DOFs: 44100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.7433e-03
+   Relative error:     4.8362e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.6214e-01
+   Effectivity index: 34.1828
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.1414e-02
+   Relative skeleton error:  3.5689e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.7156e-01
+   Relative flux error: 1.1330e-02
+
+============================================================
+Running case c: p=3, dp=2, N=40  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 40x40 mesh
+========================================
+U DOFs: 14400
+Q_plus DOFs: 8241
+Q_prime DOFs: 13120
+Net Q_prime DOFs: 6560
+Net X DOFs: 29201
+Y DOFs: 57600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.3232e-03
+   Relative error:     3.3883e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.1251e-01
+   Effectivity index: 33.8572
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.1820e-02
+   Relative skeleton error:  2.5650e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.1225e-01
+   Relative flux error: 8.2834e-03
+
+============================================================
+Running case c: p=3, dp=2, N=45  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 45x45 mesh
+========================================
+U DOFs: 18225
+Q_plus DOFs: 10396
+Q_prime DOFs: 16560
+Net Q_prime DOFs: 8280
+Net X DOFs: 36901
+Y DOFs: 72900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.4389e-03
+   Relative error:     2.4867e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 8.0749e-02
+   Effectivity index: 33.1079
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.5444e-02
+   Relative skeleton error:  1.9337e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.7040e-01
+   Relative flux error: 6.2696e-03
+
+============================================================
+Running case c: p=3, dp=2, N=50  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 50x50 mesh
+========================================
+U DOFs: 22500
+Q_plus DOFs: 12801
+Q_prime DOFs: 20400
+Net Q_prime DOFs: 10200
+Net X DOFs: 45501
+Y DOFs: 90000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.8482e-03
+   Relative error:     1.8844e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 5.9587e-02
+   Effectivity index: 32.2404
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.0779e-02
+   Relative skeleton error:  1.4981e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.3920e-01
+   Relative flux error: 4.8585e-03
+
+============================================================
+Running case c: p=3, dp=2, N=55  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 55x55 mesh
+========================================
+U DOFs: 27225
+Q_plus DOFs: 15456
+Q_prime DOFs: 24640
+Net Q_prime DOFs: 12320
+Net X DOFs: 55001
+Y DOFs: 108900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.4050e-03
+   Relative error:     1.4325e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.5061e-02
+   Effectivity index: 32.0722
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.6659e-02
+   Relative skeleton error:  1.1452e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.1157e-01
+   Relative flux error: 3.7129e-03
+
+============================================================
+Running case c: p=3, dp=2, N=60  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 60x60 mesh
+========================================
+U DOFs: 32400
+Q_plus DOFs: 18361
+Q_prime DOFs: 29280
+Net Q_prime DOFs: 14640
+Net X DOFs: 65401
+Y DOFs: 129600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.0556e-03
+   Relative error:     1.0763e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.4824e-02
+   Effectivity index: 32.9898
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.2869e-02
+   Relative skeleton error:  8.4701e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 8.6203e-02
+   Relative flux error: 2.7466e-03
+
+============================================================
+Running case c: p=3, dp=2, N=65  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 65x65 mesh
+========================================
+U DOFs: 38025
+Q_plus DOFs: 21516
+Q_prime DOFs: 34320
+Net Q_prime DOFs: 17160
+Net X DOFs: 76701
+Y DOFs: 152100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.8701e-04
+   Relative error:     8.0243e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.7436e-02
+   Effectivity index: 34.8612
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 9.6232e-03
+   Relative skeleton error:  6.0851e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.4496e-02
+   Relative flux error: 1.9743e-03
+
+============================================================
+Running case c: p=3, dp=2, N=70  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 70x70 mesh
+========================================
+U DOFs: 44100
+Q_plus DOFs: 24921
+Q_prime DOFs: 39760
+Net Q_prime DOFs: 19880
+Net X DOFs: 88901
+Y DOFs: 176400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 5.8906e-04
+   Relative error:     6.0060e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.1984e-02
+   Effectivity index: 37.3212
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 7.0566e-03
+   Relative skeleton error:  4.2998e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.7343e-02
+   Relative flux error: 1.3965e-03
+
+============================================================
+Running case c: p=3, dp=2, N=75  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 75x75 mesh
+========================================
+U DOFs: 50625
+Q_plus DOFs: 28576
+Q_prime DOFs: 45600
+Net Q_prime DOFs: 22800
+Net X DOFs: 102001
+Y DOFs: 202500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.4728e-04
+   Relative error:     4.5604e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.7880e-02
+   Effectivity index: 39.9759
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 5.1381e-03
+   Relative skeleton error:  3.0247e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.4526e-02
+   Relative flux error: 9.8390e-04
+
+============================================================
+Running case c: p=3, dp=2, N=80  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 80x80 mesh
+========================================
+U DOFs: 57600
+Q_plus DOFs: 32481
+Q_prime DOFs: 51840
+Net Q_prime DOFs: 25920
+Net X DOFs: 116001
+Y DOFs: 230400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.4660e-04
+   Relative error:     3.5339e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.4735e-02
+   Effectivity index: 42.5113
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.7485e-03
+   Relative skeleton error:  2.1365e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.5244e-02
+   Relative flux error: 6.9653e-04
+
+============================================================
+Running case c: p=3, dp=2, N=85  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 85x85 mesh
+========================================
+U DOFs: 65025
+Q_plus DOFs: 36636
+Q_prime DOFs: 58480
+Net Q_prime DOFs: 29240
+Net X DOFs: 130901
+Y DOFs: 260100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.7458e-04
+   Relative error:     2.7996e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.2284e-02
+   Effectivity index: 44.7370
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.7552e-03
+   Relative skeleton error:  1.5235e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.8610e-02
+   Relative flux error: 4.9817e-04
+
+============================================================
+Running case c: p=3, dp=2, N=90  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 90x90 mesh
+========================================
+U DOFs: 72900
+Q_plus DOFs: 41041
+Q_prime DOFs: 65520
+Net Q_prime DOFs: 32760
+Net X DOFs: 146701
+Y DOFs: 291600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.2215e-04
+   Relative error:     2.2650e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0347e-02
+   Effectivity index: 46.5779
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.0466e-03
+   Relative skeleton error:  1.0998e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.3879e-02
+   Relative flux error: 3.6105e-04
+
+============================================================
+Running case c: p=3, dp=2, N=95  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 95x95 mesh
+========================================
+U DOFs: 81225
+Q_plus DOFs: 45696
+Q_prime DOFs: 72960
+Net Q_prime DOFs: 36480
+Net X DOFs: 163401
+Y DOFs: 324900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.8312e-04
+   Relative error:     1.8670e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 8.7970e-03
+   Effectivity index: 48.0401
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.5386e-03
+   Relative skeleton error:  8.0475e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.0488e-02
+   Relative flux error: 2.6555e-04
+
+============================================================
+Running case c: p=3, dp=2, N=100  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 3, dp = 2, 100x100 mesh
+========================================
+U DOFs: 90000
+Q_plus DOFs: 50601
+Q_prime DOFs: 80800
+Net Q_prime DOFs: 40400
+Net X DOFs: 181001
+Y DOFs: 360000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.5337e-04
+   Relative error:     1.5637e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 7.5414e-03
+   Effectivity index: 49.1721
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.1712e-03
+   Relative skeleton error:  5.9708e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 8.0343e-03
+   Relative flux error: 1.9828e-04
+
+############################################################
+STARTING SIMULATIONS FOR CASE c: POLYNOMIAL ORDER p=4, dp=1  (Max N=100)
+############################################################
+
+============================================================
+Running case c: p=4, dp=1, N=4  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 4x4 mesh
+========================================
+U DOFs: 256
+Q_plus DOFs: 145
+Q_prime DOFs: 200
+Net Q_prime DOFs: 100
+Net X DOFs: 501
+Y DOFs: 576
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 8.9921e-01
+   Relative error:     9.1682e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.8277e+00
+   Effectivity index: 2.0325
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.2153e+01
+   Relative skeleton error:  3.1365e+00
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.4365e+01
+   Relative flux error: 1.8005e+00
+
+============================================================
+Running case c: p=4, dp=1, N=6  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 6x6 mesh
+========================================
+U DOFs: 576
+Q_plus DOFs: 301
+Q_prime DOFs: 420
+Net Q_prime DOFs: 210
+Net X DOFs: 1087
+Y DOFs: 1296
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.0052e-01
+   Relative error:     3.0640e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.2309e+00
+   Effectivity index: 4.0960
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 9.4058e+00
+   Relative skeleton error:  1.9618e+00
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.0619e+00
+   Relative flux error: 7.1623e-01
+
+============================================================
+Running case c: p=4, dp=1, N=8  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 8x8 mesh
+========================================
+U DOFs: 1024
+Q_plus DOFs: 513
+Q_prime DOFs: 720
+Net Q_prime DOFs: 360
+Net X DOFs: 1897
+Y DOFs: 2304
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.8483e-01
+   Relative error:     1.8845e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.7763e-01
+   Effectivity index: 3.6663
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.3897e+00
+   Relative skeleton error:  7.9811e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.6418e+00
+   Relative flux error: 3.1893e-01
+
+============================================================
+Running case c: p=4, dp=1, N=10  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 10x10 mesh
+========================================
+U DOFs: 1600
+Q_plus DOFs: 781
+Q_prime DOFs: 1100
+Net Q_prime DOFs: 550
+Net X DOFs: 2931
+Y DOFs: 3600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 5.6189e-02
+   Relative error:     5.7289e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.7798e-01
+   Effectivity index: 6.7269
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.2144e+00
+   Relative skeleton error:  3.5727e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.0656e+00
+   Relative flux error: 1.6158e-01
+
+============================================================
+Running case c: p=4, dp=1, N=12  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 12x12 mesh
+========================================
+U DOFs: 2304
+Q_plus DOFs: 1105
+Q_prime DOFs: 1560
+Net Q_prime DOFs: 780
+Net X DOFs: 4189
+Y DOFs: 5184
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.9152e-02
+   Relative error:     2.9723e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.2515e-01
+   Effectivity index: 7.7232
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.6726e+00
+   Relative skeleton error:  2.4629e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.1470e+00
+   Relative flux error: 8.1844e-02
+
+============================================================
+Running case c: p=4, dp=1, N=15  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 15x15 mesh
+========================================
+U DOFs: 3600
+Q_plus DOFs: 1696
+Q_prime DOFs: 2400
+Net Q_prime DOFs: 1200
+Net X DOFs: 6496
+Y DOFs: 8100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.2914e-02
+   Relative error:     1.3167e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0252e-01
+   Effectivity index: 7.9390
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.3160e+00
+   Relative skeleton error:  1.7329e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 5.1665e-01
+   Relative flux error: 3.2955e-02
+
+============================================================
+Running case c: p=4, dp=1, N=20  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 20x20 mesh
+========================================
+U DOFs: 6400
+Q_plus DOFs: 2961
+Q_prime DOFs: 4200
+Net Q_prime DOFs: 2100
+Net X DOFs: 11461
+Y DOFs: 14400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.8827e-03
+   Relative error:     3.9588e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.0562e-02
+   Effectivity index: 7.8714
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.1376e-01
+   Relative skeleton error:  3.5773e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.6605e-01
+   Relative flux error: 9.1685e-03
+
+============================================================
+Running case c: p=4, dp=1, N=25  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 25x25 mesh
+========================================
+U DOFs: 10000
+Q_plus DOFs: 4576
+Q_prime DOFs: 6500
+Net Q_prime DOFs: 3250
+Net X DOFs: 17826
+Y DOFs: 22500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.4881e-03
+   Relative error:     1.5173e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0354e-02
+   Effectivity index: 6.9577
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.3112e-01
+   Relative skeleton error:  1.3370e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 5.2385e-02
+   Relative flux error: 2.5865e-03
+
+============================================================
+Running case c: p=4, dp=1, N=30  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 30x30 mesh
+========================================
+U DOFs: 14400
+Q_plus DOFs: 6541
+Q_prime DOFs: 9300
+Net Q_prime DOFs: 4650
+Net X DOFs: 25591
+Y DOFs: 32400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.0492e-03
+   Relative error:     1.0698e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.3129e-03
+   Effectivity index: 4.1106
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.1601e-02
+   Relative skeleton error:  7.5957e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.0579e-01
+   Relative flux error: 4.7679e-03
+
+============================================================
+Running case c: p=4, dp=1, N=35  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 35x35 mesh
+========================================
+U DOFs: 19600
+Q_plus DOFs: 8856
+Q_prime DOFs: 12600
+Net Q_prime DOFs: 6300
+Net X DOFs: 34756
+Y DOFs: 44100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.9650e-04
+   Relative error:     4.0427e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.1428e-03
+   Effectivity index: 5.4042
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.3924e-02
+   Relative skeleton error:  2.9235e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.2704e-02
+   Relative flux error: 5.3005e-04
+
+============================================================
+Running case c: p=4, dp=1, N=40  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 40x40 mesh
+========================================
+U DOFs: 25600
+Q_plus DOFs: 11521
+Q_prime DOFs: 16400
+Net Q_prime DOFs: 8200
+Net X DOFs: 45321
+Y DOFs: 57600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.4076e-04
+   Relative error:     2.4548e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.1961e-03
+   Effectivity index: 4.9679
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.3222e-02
+   Relative skeleton error:  1.8719e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.2433e-02
+   Relative flux error: 4.8522e-04
+
+============================================================
+Running case c: p=4, dp=1, N=45  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 45x45 mesh
+========================================
+U DOFs: 32400
+Q_plus DOFs: 14536
+Q_prime DOFs: 20700
+Net Q_prime DOFs: 10350
+Net X DOFs: 57286
+Y DOFs: 72900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.5040e-04
+   Relative error:     1.5335e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 7.1938e-04
+   Effectivity index: 4.7830
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.6378e-02
+   Relative skeleton error:  1.2447e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.7193e-03
+   Relative flux error: 2.8401e-04
+
+============================================================
+Running case c: p=4, dp=1, N=50  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 50x50 mesh
+========================================
+U DOFs: 40000
+Q_plus DOFs: 17901
+Q_prime DOFs: 25500
+Net Q_prime DOFs: 12750
+Net X DOFs: 70651
+Y DOFs: 90000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 9.6746e-05
+   Relative error:     9.8641e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.5812e-04
+   Effectivity index: 4.7353
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.2238e-02
+   Relative skeleton error:  8.8231e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.9984e-03
+   Relative flux error: 1.0466e-04
+
+============================================================
+Running case c: p=4, dp=1, N=55  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 55x55 mesh
+========================================
+U DOFs: 48400
+Q_plus DOFs: 21616
+Q_prime DOFs: 30800
+Net Q_prime DOFs: 15400
+Net X DOFs: 85416
+Y DOFs: 108900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.6319e-05
+   Relative error:     6.7618e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.0483e-04
+   Effectivity index: 4.5964
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 9.6061e-03
+   Relative skeleton error:  6.6035e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.1827e-03
+   Relative flux error: 7.2639e-05
+
+============================================================
+Running case c: p=4, dp=1, N=60  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 60x60 mesh
+========================================
+U DOFs: 57600
+Q_plus DOFs: 25681
+Q_prime DOFs: 36600
+Net Q_prime DOFs: 18300
+Net X DOFs: 101581
+Y DOFs: 129600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.6863e-05
+   Relative error:     4.7781e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.1019e-04
+   Effectivity index: 4.4851
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 7.6113e-03
+   Relative skeleton error:  5.0094e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.4474e-03
+   Relative flux error: 4.6117e-05
+
+============================================================
+Running case c: p=4, dp=1, N=65  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 65x65 mesh
+========================================
+U DOFs: 67600
+Q_plus DOFs: 30096
+Q_prime DOFs: 42900
+Net Q_prime DOFs: 21450
+Net X DOFs: 119146
+Y DOFs: 152100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.4511e-05
+   Relative error:     3.5187e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.4936e-04
+   Effectivity index: 4.3277
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 6.3451e-03
+   Relative skeleton error:  4.0122e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.7357e-03
+   Relative flux error: 5.3134e-05
+
+============================================================
+Running case c: p=4, dp=1, N=70  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 70x70 mesh
+========================================
+U DOFs: 78400
+Q_plus DOFs: 34861
+Q_prime DOFs: 49700
+Net Q_prime DOFs: 24850
+Net X DOFs: 138111
+Y DOFs: 176400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.5821e-05
+   Relative error:     2.6327e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0880e-04
+   Effectivity index: 4.2137
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 5.0226e-03
+   Relative skeleton error:  3.0605e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.5352e-03
+   Relative flux error: 4.5285e-05
+
+============================================================
+Running case c: p=4, dp=1, N=75  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 75x75 mesh
+========================================
+U DOFs: 90000
+Q_plus DOFs: 39976
+Q_prime DOFs: 57000
+Net Q_prime DOFs: 28500
+Net X DOFs: 158476
+Y DOFs: 202500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.9258e-05
+   Relative error:     1.9635e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 8.1063e-05
+   Effectivity index: 4.2093
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.0279e-03
+   Relative skeleton error:  2.3711e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.2642e-04
+   Relative flux error: 1.7851e-05
+
+============================================================
+Running case c: p=4, dp=1, N=80  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 80x80 mesh
+========================================
+U DOFs: 102400
+Q_plus DOFs: 45441
+Q_prime DOFs: 64800
+Net Q_prime DOFs: 32400
+Net X DOFs: 180241
+Y DOFs: 230400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.5009e-05
+   Relative error:     1.5304e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.1557e-05
+   Effectivity index: 4.1012
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.4220e-03
+   Relative skeleton error:  1.9504e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.9669e-04
+   Relative flux error: 2.1982e-05
+
+============================================================
+Running case c: p=4, dp=1, N=85  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 85x85 mesh
+========================================
+U DOFs: 115600
+Q_plus DOFs: 51256
+Q_prime DOFs: 73100
+Net Q_prime DOFs: 36550
+Net X DOFs: 203406
+Y DOFs: 260100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.2344e-05
+   Relative error:     1.2586e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.7560e-05
+   Effectivity index: 3.8529
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.2873e-03
+   Relative skeleton error:  1.8177e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.3985e-03
+   Relative flux error: 3.7436e-05
+
+============================================================
+Running case c: p=4, dp=1, N=90  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 90x90 mesh
+========================================
+U DOFs: 129600
+Q_plus DOFs: 57421
+Q_prime DOFs: 81900
+Net Q_prime DOFs: 40950
+Net X DOFs: 227971
+Y DOFs: 291600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 9.4101e-06
+   Relative error:     9.5944e-06
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.7249e-05
+   Effectivity index: 3.9584
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.3890e-03
+   Relative skeleton error:  1.2838e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.9635e-04
+   Relative flux error: 1.8115e-05
+
+============================================================
+Running case c: p=4, dp=1, N=95  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 95x95 mesh
+========================================
+U DOFs: 144400
+Q_plus DOFs: 63936
+Q_prime DOFs: 91200
+Net Q_prime DOFs: 45600
+Net X DOFs: 253936
+Y DOFs: 324900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.5261e-06
+   Relative error:     7.6735e-06
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.9593e-05
+   Effectivity index: 3.9321
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.0655e-03
+   Relative skeleton error:  1.0803e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.1993e-04
+   Relative flux error: 1.5697e-05
+
+============================================================
+Running case c: p=4, dp=1, N=100  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 1, 100x100 mesh
+========================================
+U DOFs: 160000
+Q_plus DOFs: 70801
+Q_prime DOFs: 101000
+Net Q_prime DOFs: 50500
+Net X DOFs: 281301
+Y DOFs: 360000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.2438e-06
+   Relative error:     6.3661e-06
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.3796e-05
+   Effectivity index: 3.8111
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.9026e-03
+   Relative skeleton error:  9.6996e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 8.4295e-04
+   Relative flux error: 2.0803e-05
+
+############################################################
+STARTING SIMULATIONS FOR CASE c: POLYNOMIAL ORDER p=4, dp=2  (Max N=100)
+############################################################
+
+============================================================
+Running case c: p=4, dp=2, N=4  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 4x4 mesh
+========================================
+U DOFs: 256
+Q_plus DOFs: 145
+Q_prime DOFs: 200
+Net Q_prime DOFs: 100
+Net X DOFs: 501
+Y DOFs: 784
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 8.6630e-01
+   Relative error:     8.8327e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.6304e+00
+   Effectivity index: 4.1907
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.2651e+01
+   Relative skeleton error:  3.2649e+00
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.1829e+01
+   Relative flux error: 1.4826e+00
+
+============================================================
+Running case c: p=4, dp=2, N=6  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 6x6 mesh
+========================================
+U DOFs: 576
+Q_plus DOFs: 301
+Q_prime DOFs: 420
+Net Q_prime DOFs: 210
+Net X DOFs: 1087
+Y DOFs: 1764
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.2387e-01
+   Relative error:     2.2826e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.4012e+00
+   Effectivity index: 15.1924
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.8996e+00
+   Relative skeleton error:  1.8563e+00
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 5.8836e+00
+   Relative flux error: 5.9673e-01
+
+============================================================
+Running case c: p=4, dp=2, N=8  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 8x8 mesh
+========================================
+U DOFs: 1024
+Q_plus DOFs: 513
+Q_prime DOFs: 720
+Net Q_prime DOFs: 360
+Net X DOFs: 1897
+Y DOFs: 3136
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.7643e-01
+   Relative error:     1.7989e-01
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.1764e+00
+   Effectivity index: 12.3353
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.7920e+00
+   Relative skeleton error:  8.7126e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.3888e+00
+   Relative flux error: 2.9677e-01
+
+============================================================
+Running case c: p=4, dp=2, N=10  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 10x10 mesh
+========================================
+U DOFs: 1600
+Q_plus DOFs: 781
+Q_prime DOFs: 1100
+Net Q_prime DOFs: 550
+Net X DOFs: 2931
+Y DOFs: 4900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.8087e-02
+   Relative error:     4.9029e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.0947e+00
+   Effectivity index: 22.7640
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.3864e+00
+   Relative skeleton error:  3.8503e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.3969e+00
+   Relative flux error: 1.0927e-01
+
+============================================================
+Running case c: p=4, dp=2, N=12  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 12x12 mesh
+========================================
+U DOFs: 2304
+Q_plus DOFs: 1105
+Q_prime DOFs: 1560
+Net Q_prime DOFs: 780
+Net X DOFs: 4189
+Y DOFs: 7056
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.3561e-02
+   Relative error:     2.4023e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.5723e-01
+   Effectivity index: 27.8946
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.1718e+00
+   Relative skeleton error:  1.7254e-01
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.9530e-01
+   Relative flux error: 4.9614e-02
+
+============================================================
+Running case c: p=4, dp=2, N=15  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 15x15 mesh
+========================================
+U DOFs: 3600
+Q_plus DOFs: 1696
+Q_prime DOFs: 2400
+Net Q_prime DOFs: 1200
+Net X DOFs: 6496
+Y DOFs: 11025
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.1244e-02
+   Relative error:     1.1465e-02
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.5582e-01
+   Effectivity index: 31.6445
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 6.0186e-01
+   Relative skeleton error:  7.9251e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.9530e-01
+   Relative flux error: 2.5215e-02
+
+============================================================
+Running case c: p=4, dp=2, N=20  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 20x20 mesh
+========================================
+U DOFs: 6400
+Q_plus DOFs: 2961
+Q_prime DOFs: 4200
+Net Q_prime DOFs: 2100
+Net X DOFs: 11461
+Y DOFs: 19600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 4.9562e-03
+   Relative error:     5.0533e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.4911e-01
+   Effectivity index: 30.0860
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.0449e-01
+   Relative skeleton error:  2.3315e-02
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.3747e-01
+   Relative flux error: 1.3112e-02
+
+============================================================
+Running case c: p=4, dp=2, N=25  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 25x25 mesh
+========================================
+U DOFs: 10000
+Q_plus DOFs: 4576
+Q_prime DOFs: 6500
+Net Q_prime DOFs: 3250
+Net X DOFs: 17826
+Y DOFs: 30625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.3329e-03
+   Relative error:     2.3786e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 7.2158e-02
+   Effectivity index: 30.9306
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 8.1995e-02
+   Relative skeleton error:  8.3612e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.2864e-01
+   Relative flux error: 6.3518e-03
+
+============================================================
+Running case c: p=4, dp=2, N=30  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 30x30 mesh
+========================================
+U DOFs: 14400
+Q_plus DOFs: 6541
+Q_prime DOFs: 9300
+Net Q_prime DOFs: 4650
+Net X DOFs: 25591
+Y DOFs: 44100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.2196e-03
+   Relative error:     1.2435e-03
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 3.7939e-02
+   Effectivity index: 31.1088
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.9823e-02
+   Relative skeleton error:  3.7069e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 7.5323e-02
+   Relative flux error: 3.3947e-03
+
+============================================================
+Running case c: p=4, dp=2, N=35  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 35x35 mesh
+========================================
+U DOFs: 19600
+Q_plus DOFs: 8856
+Q_prime DOFs: 12600
+Net Q_prime DOFs: 6300
+Net X DOFs: 34756
+Y DOFs: 60025
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.2698e-04
+   Relative error:     6.3927e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.1658e-02
+   Effectivity index: 34.5429
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.1164e-02
+   Relative skeleton error:  1.8238e-03
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.0603e-02
+   Relative flux error: 1.6940e-03
+
+============================================================
+Running case c: p=4, dp=2, N=40  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 40x40 mesh
+========================================
+U DOFs: 25600
+Q_plus DOFs: 11521
+Q_prime DOFs: 16400
+Net Q_prime DOFs: 8200
+Net X DOFs: 45321
+Y DOFs: 78400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.2485e-04
+   Relative error:     3.3121e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.3261e-02
+   Effectivity index: 40.8235
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.1663e-02
+   Relative skeleton error:  9.4016e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.0709e-02
+   Relative flux error: 8.0817e-04
+
+============================================================
+Running case c: p=4, dp=2, N=45  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 45x45 mesh
+========================================
+U DOFs: 32400
+Q_plus DOFs: 14536
+Q_prime DOFs: 20700
+Net Q_prime DOFs: 10350
+Net X DOFs: 57286
+Y DOFs: 99225
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.8206e-04
+   Relative error:     1.8562e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 8.5896e-03
+   Effectivity index: 47.1815
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 6.9390e-03
+   Relative skeleton error:  5.2735e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.1012e-02
+   Relative flux error: 4.0517e-04
+
+============================================================
+Running case c: p=4, dp=2, N=50  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 50x50 mesh
+========================================
+U DOFs: 40000
+Q_plus DOFs: 17901
+Q_prime DOFs: 25500
+Net Q_prime DOFs: 12750
+Net X DOFs: 70651
+Y DOFs: 122500
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.1139e-04
+   Relative error:     1.1357e-04
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 5.8235e-03
+   Effectivity index: 52.2810
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.3936e-03
+   Relative skeleton error:  3.1677e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.3149e-03
+   Relative flux error: 2.2041e-04
+
+============================================================
+Running case c: p=4, dp=2, N=55  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 55x55 mesh
+========================================
+U DOFs: 48400
+Q_plus DOFs: 21616
+Q_prime DOFs: 30800
+Net Q_prime DOFs: 15400
+Net X DOFs: 85416
+Y DOFs: 148225
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.3017e-05
+   Relative error:     7.4447e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.0922e-03
+   Effectivity index: 56.0444
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.9042e-03
+   Relative skeleton error:  1.9964e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.9013e-03
+   Relative flux error: 1.2983e-04
+
+============================================================
+Running case c: p=4, dp=2, N=60  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 60x60 mesh
+========================================
+U DOFs: 57600
+Q_plus DOFs: 25681
+Q_prime DOFs: 36600
+Net Q_prime DOFs: 18300
+Net X DOFs: 101581
+Y DOFs: 176400
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 5.0240e-05
+   Relative error:     5.1224e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.9580e-03
+   Effectivity index: 58.8770
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.9957e-03
+   Relative skeleton error:  1.3135e-04
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.5495e-03
+   Relative flux error: 8.1232e-05
+
+============================================================
+Running case c: p=4, dp=2, N=65  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 65x65 mesh
+========================================
+U DOFs: 67600
+Q_plus DOFs: 30096
+Q_prime DOFs: 42900
+Net Q_prime DOFs: 21450
+Net X DOFs: 119146
+Y DOFs: 207025
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 3.5814e-05
+   Relative error:     3.6516e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 2.1888e-03
+   Effectivity index: 61.1151
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.4187e-03
+   Relative skeleton error:  8.9710e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.7326e-03
+   Relative flux error: 5.3038e-05
+
+============================================================
+Running case c: p=4, dp=2, N=70  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 70x70 mesh
+========================================
+U DOFs: 78400
+Q_plus DOFs: 34861
+Q_prime DOFs: 49700
+Net Q_prime DOFs: 24850
+Net X DOFs: 138111
+Y DOFs: 240100
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 2.6259e-05
+   Relative error:     2.6774e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.6537e-03
+   Effectivity index: 62.9747
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 1.0399e-03
+   Relative skeleton error:  6.3364e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.1948e-03
+   Relative flux error: 3.5245e-05
+
+============================================================
+Running case c: p=4, dp=2, N=75  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 75x75 mesh
+========================================
+U DOFs: 90000
+Q_plus DOFs: 39976
+Q_prime DOFs: 57000
+Net Q_prime DOFs: 28500
+Net X DOFs: 158476
+Y DOFs: 275625
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.9721e-05
+   Relative error:     2.0108e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 1.2725e-03
+   Effectivity index: 64.5257
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 7.8381e-04
+   Relative skeleton error:  4.6140e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 8.3240e-04
+   Relative flux error: 2.3721e-05
+
+============================================================
+Running case c: p=4, dp=2, N=80  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 80x80 mesh
+========================================
+U DOFs: 102400
+Q_plus DOFs: 45441
+Q_prime DOFs: 64800
+Net Q_prime DOFs: 32400
+Net X DOFs: 180241
+Y DOFs: 313600
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.5129e-05
+   Relative error:     1.5426e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 9.9478e-04
+   Effectivity index: 65.7525
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 6.0507e-04
+   Relative skeleton error:  3.4488e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 6.0302e-04
+   Relative flux error: 1.6639e-05
+
+============================================================
+Running case c: p=4, dp=2, N=85  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 85x85 mesh
+========================================
+U DOFs: 115600
+Q_plus DOFs: 51256
+Q_prime DOFs: 73100
+Net Q_prime DOFs: 36550
+Net X DOFs: 203406
+Y DOFs: 354025
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 1.1820e-05
+   Relative error:     1.2051e-05
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 7.8867e-04
+   Effectivity index: 66.7259
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 4.7794e-04
+   Relative skeleton error:  2.6428e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 4.5456e-04
+   Relative flux error: 1.2168e-05
+
+============================================================
+Running case c: p=4, dp=2, N=90  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 90x90 mesh
+========================================
+U DOFs: 129600
+Q_plus DOFs: 57421
+Q_prime DOFs: 81900
+Net Q_prime DOFs: 40950
+Net X DOFs: 227971
+Y DOFs: 396900
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 9.3757e-06
+   Relative error:     9.5593e-06
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 6.3348e-04
+   Effectivity index: 67.5660
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.8544e-04
+   Relative skeleton error:  2.0713e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 3.4436e-04
+   Relative flux error: 8.9582e-06
+
+============================================================
+Running case c: p=4, dp=2, N=95  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 95x95 mesh
+========================================
+U DOFs: 144400
+Q_plus DOFs: 63936
+Q_prime DOFs: 91200
+Net Q_prime DOFs: 45600
+Net X DOFs: 253936
+Y DOFs: 442225
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 7.5356e-06
+   Relative error:     7.6833e-06
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 5.1488e-04
+   Effectivity index: 68.3258
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 3.1613e-04
+   Relative skeleton error:  1.6535e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 2.5841e-04
+   Relative flux error: 6.5430e-06
+
+============================================================
+Running case c: p=4, dp=2, N=100  ...
+============================================================
+Assembling system...
+
+Assembling done.
+----------------------------------------
+Solving with static condensation...
+
+Solve done.
+========================================
+RESULTS: Case c, p = 4, dp = 2, 100x100 mesh
+========================================
+U DOFs: 160000
+Q_plus DOFs: 70801
+Q_prime DOFs: 101000
+Net Q_prime DOFs: 50500
+Net X DOFs: 281301
+Y DOFs: 490000
+
+1. PRIMARY VARIABLE u:
+   ||u - u_exact||_L2 = 6.1282e-06
+   Relative error:     6.2483e-06
+
+2. ERROR ESTIMATOR:
+   ||e||_Y = 4.2284e-04
+   Effectivity index: 68.9992
+
+3. SKELETON TRACE q+:
+   ||q+ - u_exact||_L2(E_h^+) = 2.6249e-04
+   Relative skeleton error:  1.3382e-05
+
+4. FLUX q' (vertical edges):
+   ||q' - partial_x u_exact||_L2(E_h') = 1.9495e-04
+   Relative flux error: 4.8111e-06
+Saved results to: sinum_paper_results_spacetime_schr_potential\results_case_c_maxN_100_qprime_order_full.json
+
+================================================================================
+Saved L2-error plot to: sinum_paper_results_spacetime_schr_potential\L2_convergence_case_c_maxN_100_qprime_order_full.pdf
+================================================================================
+Saved interface error plot to: sinum_paper_results_spacetime_schr_potential\Relative_Interface_errors_case_c_maxN_100_qprime_order_full.pdf
+================================================================================
+
+
+Run finished 2026-11-16T00:08:57+01:00, exit code 0
