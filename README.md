@@ -2,7 +2,7 @@
 
 Code and results of the numerical experiments (Section 4) of the paper
 
-> T. Keith and M. Ohlberger, *Model order reduction for space-time DPG approximations of the Schrödinger equation*.
+> T. Keith and M. Ohlberger, *Model order reduction for space-time DPG approximations of the Schrödinger equation*, [arXiv:2611.29685](https://arxiv.org/abs/2611.29685).
 
 The discretization uses [NGSolve](https://ngsolve.org), the reduced basis method uses [pyMOR](https://pymor.org).
 
